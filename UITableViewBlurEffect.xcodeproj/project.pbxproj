@@ -12,6 +12,8 @@
 		1187F9FD1CC92968001F2943 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1187F9FB1CC92968001F2943 /* Main.storyboard */; };
 		1187F9FF1CC92968001F2943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1187F9FE1CC92968001F2943 /* Assets.xcassets */; };
 		1187FA021CC92968001F2943 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1187FA001CC92968001F2943 /* LaunchScreen.storyboard */; };
+		1187FA0A1CC93F45001F2943 /* sunset.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1187FA091CC93F45001F2943 /* sunset.jpg */; };
+		1187FA0C1CC95DC6001F2943 /* QuoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1187FA0B1CC95DC6001F2943 /* QuoteTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1187F9FE1CC92968001F2943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1187FA011CC92968001F2943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1187FA031CC92968001F2943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1187FA091CC93F45001F2943 /* sunset.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunset.jpg; sourceTree = "<group>"; };
+		1187FA0B1CC95DC6001F2943 /* QuoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 			children = (
 				1187F9F71CC92968001F2943 /* AppDelegate.swift */,
 				1187F9F91CC92968001F2943 /* ViewController.swift */,
+				1187FA0B1CC95DC6001F2943 /* QuoteTableViewCell.swift */,
 				1187F9FB1CC92968001F2943 /* Main.storyboard */,
 				1187F9FE1CC92968001F2943 /* Assets.xcassets */,
+				1187FA091CC93F45001F2943 /* sunset.jpg */,
 				1187FA001CC92968001F2943 /* LaunchScreen.storyboard */,
 				1187FA031CC92968001F2943 /* Info.plist */,
 			);
@@ -125,6 +131,7 @@
 				1187FA021CC92968001F2943 /* LaunchScreen.storyboard in Resources */,
 				1187F9FF1CC92968001F2943 /* Assets.xcassets in Resources */,
 				1187F9FD1CC92968001F2943 /* Main.storyboard in Resources */,
+				1187FA0A1CC93F45001F2943 /* sunset.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +144,7 @@
 			files = (
 				1187F9FA1CC92968001F2943 /* ViewController.swift in Sources */,
 				1187F9F81CC92968001F2943 /* AppDelegate.swift in Sources */,
+				1187FA0C1CC95DC6001F2943 /* QuoteTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +296,7 @@
 				1187FA081CC92968001F2943 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
