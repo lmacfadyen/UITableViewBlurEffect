@@ -102,6 +102,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         // This is the other way to add the blurView in this example
         // If you choose this way, it is also above the imageView
+        // Uncomment imageView.addSubview(blurView) if you want to try it
         //view.insertSubview(blurView, aboveSubview: imageView)
         
         // Constraints to keep size of blurView and view the same
@@ -114,6 +115,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         // blur view does not get out of sync with the view and image rotation
         view.addConstraints([topConstraint, leftConstraint, rightConstraint, bottomConstraint])
         
+        // Add separatorEffect to give some color and transparency to the separator lines
         tableView.separatorEffect = UIVibrancyEffect(forBlurEffect: blurView.effect as! UIBlurEffect)
     }
 
